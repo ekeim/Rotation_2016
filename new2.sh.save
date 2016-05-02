@@ -1,0 +1,6 @@
+#!/usr/bin/Rscript
+
+
+numbers <- read.table("output.txt", header=FALSE)
+sample(nrow(V1
+), 10, replace= TRUE) 
